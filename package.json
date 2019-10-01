@@ -1,0 +1,18 @@
+{
+    "name": "CEEwakeUPlikeSHESgotTOgetITT",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DirtyyDogg/CEEwakeUPlikeSHESgotTOgetITT.git"
+    },
+    "scripts": {
+        "install-client": "cd scripts && install-client",
+        "install-server": "cd scripts && install-server",
+        "mongo": "cd scripts && mongod",
+        "client": "cd scripts && runclient",
+        "server": "cd scripts && runserver",
+        "run-all": "cd scripts && run-all",
+        "stop-all": "cd scripts && stop-all"
+    },
+    "license": "MIT"
+}
