@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
-// used to create fake backend
-// import { fakeBackendProvider } from './_helpers';
+
 
 import { appRoutingModule } from './app.routing';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
+import { Homev2Component } from './homev2';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { AlertComponent } from './_components';
@@ -24,6 +24,7 @@ import { AlertComponent } from './_components';
     declarations: [
         AppComponent,
         HomeComponent,
+        Homev2Component,
         LoginComponent,
         RegisterComponent,
         AlertComponent

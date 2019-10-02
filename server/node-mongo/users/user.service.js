@@ -36,7 +36,7 @@ async function getById(id) {
 async function create(userParam) {
     // validate
     if (await User.findOne({ username: userParam.email })) {
-        throw 'Email "' + userParam.email + '" is already taken';
+        throw 'User "' + userParam.email + '" is already taken';
     }
 
     const user = new User(userParam);
